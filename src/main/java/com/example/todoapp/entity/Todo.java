@@ -18,8 +18,12 @@ public class Todo {
     private String description;
 
     @ManyToOne
-    @JoinColumn(name = "user_id")
+    @JoinColumn(name = "user_id") 
     private User user;
 }
+
+
+
+
 
 
